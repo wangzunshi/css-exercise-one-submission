@@ -4,6 +4,7 @@
 
 body {
   font-size: 14px;
+  box-sizing: border-box;
 }
 
 /*** body END ***/
@@ -12,11 +13,13 @@ body {
 
 /*** navigation bar BEGIN***/
 nav {
-  background color: yellow;
+
   height: 100px;
-  margin-top: -10px;
+  margin-top: -10%;
   position: fixed;
+
   width: 100%;
+
 }
 
 /*** navigation bar END ***/
@@ -27,11 +30,13 @@ nav {
 section {
   margin: 0 auto;
   width: 60%;
+  margin-top: 10%;
+
 }
 
 h1 {
   font-family: sans-serif;
-  font-size: 2em;
+  font-size: 3.5em;
 }
 
 .example, h3 {
